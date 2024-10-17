@@ -1,0 +1,106 @@
+body {
+    font-family: "Roboto", serif;
+}
+
+.slider-imagens {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.slider-imagens .slide {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    position: absolute;
+    transition: 0.2s ease;
+}
+
+.slider-imagens .slide.mostrar {
+    opacity: 1;
+}
+
+.slider-imagens .slider-img1 {
+    background-image: url(../images/imagem1.png);
+}
+
+.slider-imagens .slider-img2 {
+    background-image: url(../images/imagem2.png);
+}
+
+.slider-imagens .slider-img3 {
+    background-image: url(../images/imagem3.png);
+}
+
+.slider-imagens .slider-img4 {
+    background-image: url(../images/imagem4.png);
+}
+
+.conteudo {
+    background-color: #fff;
+    width: 620px;
+    margin-left: 180px;
+    padding: 65px 60px;
+}
+
+.conteudo .titulo {
+    font-weight: 400;
+    font-size: 5rem;
+    margin-bottom: 80px;
+}
+
+.conteudo .texto {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.conteudo .botao {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.botao-img1{
+    color: #C50000;
+}
+
+.botao-img2{
+    color: #D9DD10
+}
+
+.botao-img3{
+    color: #A63A17;
+}
+
+.botao-img4{
+    color: #10ACDD;
+}
+
+.slider-imagens .seta {
+    position: absolute;
+    z-index: 1;
+}
+
+.slider-imagens .seta-voltar {
+    left: 4%;
+    transform: rotate(180deg);
+}
+
+.slider-imagens .seta-avancar {
+    right: 4%;
+}
+
+.slider-imagens .imagem-seta {
+    width: 50px;
+    height: 78px;
+}
+
+.slider-imagens .opacidade {
+    opacity: 0.4;
+}
