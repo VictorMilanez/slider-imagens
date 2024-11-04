@@ -35,6 +35,7 @@ setaVoltar.addEventListener('click', function(){
 
 })
 
+
 function opacidadeSetas () {
     EhaPrimeiraImagem = imagemAtual === 0
     

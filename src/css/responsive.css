@@ -1,0 +1,67 @@
+@media (max-width: 960px) {
+    .slider-imagens {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conteudo {
+        width: 70%;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding: 30px 20px;
+    }
+
+    .conteudo .titulo {
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+
+    .conteudo .texto {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .conteudo .botao {
+        font-size: 2.5rem;
+    }
+
+    .slider-imagens .seta {
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .conteudo .titulo {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .conteudo .texto {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .conteudo .botao {
+        font-size: 2rem;
+    }
+
+    .slider-imagens .imagem-seta {
+        width: 20px;
+        height: auto;
+    }
+
+    .slider-imagens .seta-voltar,
+    .slider-imagens .seta-avancar {
+        top: 50%;
+    }
+
+    .slider-imagens {
+        padding: 0 10px;
+    }
+}

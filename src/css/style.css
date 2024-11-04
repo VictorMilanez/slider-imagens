@@ -44,9 +44,10 @@ body {
 
 .conteudo {
     background-color: #fff;
-    width: 620px;
+    max-width: 620px;
     margin-left: 180px;
     padding: 65px 60px;
+    border-radius: 10px;
 }
 
 .conteudo .titulo {
@@ -85,11 +86,13 @@ body {
 .slider-imagens .seta {
     position: absolute;
     z-index: 1;
+    max-width: 100%;
 }
 
 .slider-imagens .seta-voltar {
     left: 4%;
     transform: rotate(180deg);
+    /* margin-right: 70px; */
 }
 
 .slider-imagens .seta-avancar {
@@ -103,4 +106,5 @@ body {
 
 .slider-imagens .opacidade {
     opacity: 0.4;
+    cursor: default;
 }
