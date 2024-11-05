@@ -92,7 +92,6 @@ body {
 .slider-imagens .seta-voltar {
     left: 4%;
     transform: rotate(180deg);
-    /* margin-right: 70px; */
 }
 
 .slider-imagens .seta-avancar {
